@@ -324,6 +324,12 @@ tasks:
     ref: main
     dest: ./resources/[standalone]/loadingscreen
 
+# Download showid
+  - action: download_github
+    src: hhttps://github.com/VORP-1800/beka-showid
+    ref: develop
+    dest: ./resources/[standalone]/beka-showid    
+
 # Remove Old Chat
   - action: remove_path
     path: ./resources/[cfx-default]/[gameplay]/chat
