@@ -149,9 +149,9 @@ tasks:
 
 # Download vorp stables
   - action: download_github
-    src: https://github.com/VORP-1800/vorp_stables-lua
+    src: https://github.com/VORP-1800/bcc-stables
     ref: develop
-    dest: ./temp/[VORP]/vorp_stables
+    dest: ./temp/[VORP]/bcc-stables
 
 # Download vorp hunting
   - action: download_github
