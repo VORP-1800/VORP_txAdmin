@@ -167,7 +167,7 @@ tasks:
 
 # Download vorp housing
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_housing-lua
+    src: https://github.com/VORPCORE/vorp_housing
     ref: main
     dest: ./temp/[VORP]/vorp_housing
 # Download vorp crafting
