@@ -1,9 +1,9 @@
 $engine: 3
 $onesync: on
 $steamRequired: true
-name: VORPCore
-author: vorpcore
-description: VorpCore Official txAdmin recipe! This will set up a base vorp official server.
+name: VORP-1800
+author: VORP-1800
+description: VORP-1800 Official txAdmin recipe! This will set up a base vorp official server.
 
 variables:
     steam_webApiKey: "none"
@@ -12,7 +12,7 @@ tasks:
 
 # Recipe Specific server.cfg files
   - action: download_github
-    src: https://github.com/VORPCORE/VORP_txAdmin
+    src: https://github.com/VORP-1800/VORP_txAdmin
     ref: main
     dest: ./temp/vorp_txAdminRecipe
   
@@ -47,186 +47,186 @@ tasks:
 
 # Download vorp lib
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_lib
+    src: https://github.com/VORP-1800/vorp_lib
     ref: main
     dest: ./temp/[VORP]/vorp_lib
 
 # Download vorp core
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_core-lua
+    src: https://github.com/VORP-1800/vorp_core-lua
     ref: main
     dest: ./temp/[VORP]/vorp_core
 
 # Download vorp character
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_character-lua
+    src: https://github.com/VORP-1800/vorp_character-lua
     ref: main
     dest: ./temp/[VORP]/vorp_character
 
 # Download vorp inventory
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_inventory-lua
+    src: https://github.com/VORP-1800/vorp_inventory-lua
     ref: main
     dest: ./temp/[VORP]/vorp_inventory
 
 # Download vorp inputs
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_inputs-lua
+    src: https://github.com/VORP-1800/vorp_inputs-lua
     ref: main
     dest: ./temp/[VORP]/vorp_inputs
  
 # Download vorp progressbar
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_progressbar
+    src: https://github.com/VORP-1800/vorp_progressbar
     ref: main
     dest: ./temp/[VORP]/vorp_progressbar
 
 # Download vorp police
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_police
+    src: https://github.com/VORP-1800/vorp_police
     ref: main
     dest: ./temp/[VORP]/vorp_police
 
 # Download vorp medic
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_medic
+    src: https://github.com/VORP-1800/vorp_medic
     ref: main
     dest: ./temp/[VORP]/vorp_medic
 
 # Download vorp stores
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_stores-lua
+    src: https://github.com/VORP-1800/vorp_stores-lua
     ref: main
     dest: ./temp/[VORP]/vorp_stores
 
 # Download vorp weapons
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_weaponsv2
+    src: https://github.com/VORP-1800/vorp_weaponsv2
     ref: main
     dest: ./temp/[VORP]/vorp_weaponsv2
 
 # Download vorp banking
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_banking
+    src: https://github.com/VORP-1800/vorp_banking
     ref: main
     dest: ./temp/[VORP]/vorp_banking
 
 # Download vorp paycheck
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_paycheck
+    src: https://github.com/VORP-1800/vorp_paycheck
     ref: main
     dest: ./temp/[VORP]/vorp_paycheck
 
 # Download vorp wild horse
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_wildhorse
+    src: https://github.com/VORP-1800/vorp_wildhorse
     ref: main
     dest: ./temp/[VORP]/vorp_wildhorse
 
 # Download vorp lootnpcs
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_lootnpcs
+    src: https://github.com/VORP-1800/vorp_lootnpcs
     ref: main
     dest: ./temp/[VORP]/vorp_lootnpcs
 
 # Download vorp herbs
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_herbs
+    src: https://github.com/VORP-1800/vorp_herbs
     ref: main
     dest: ./temp/[VORP]/vorp_herbs
 
 # Download vorp billing
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_billing
+    src: https://github.com/VORP-1800/vorp_billing
     ref: main
     dest: ./temp/[VORP]/vorp_billing
    
 # Download vorp doorlocks
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_doorlocks
+    src: https://github.com/VORP-1800/vorp_doorlocks
     ref: main
     dest: ./temp/[VORP]/vorp_doorlocks
 
 # Download vorp admin
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_admin
+    src: https://github.com/VORP-1800/vorp_admin
     ref: main
     dest: ./temp/[VORP]/vorp_admin
 
 # Download vorp stables
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_stables-lua
+    src: https://github.com/VORP-1800/vorp_stables-lua
     ref: main
     dest: ./temp/[VORP]/vorp_stables
 
 # Download vorp hunting
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_hunting
+    src: https://github.com/VORP-1800/vorp_hunting
     ref: main
     dest: ./temp/[VORP]/vorp_hunting
 
 # Download vorp housing
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_housing
+    src: https://github.com/VORP-1800/vorp_housing
     ref: main
     dest: ./temp/[VORP]/vorp_housing
 # Download vorp crafting
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_crafting
+    src: https://github.com/VORP-1800/vorp_crafting
     ref: main
     dest: ./temp/[VORP]/vorp_crafting
 
 # Download vorp zonenotify
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_zonenotify
+    src: https://github.com/VORP-1800/vorp_zonenotify
     ref: main
     dest: ./temp/[VORP]/vorp_zonenotify
 
 # Download vorp mining
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_mining
+    src: https://github.com/VORP-1800/vorp_mining
     ref: main
     dest: ./temp/[VORP]/vorp_mining
 
 # Download vorp lumberjack
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_lumberjack
+    src: https://github.com/VORP-1800/vorp_lumberjack
     ref: main
     dest: ./temp/[VORP]/vorp_lumberjack  
 
 # Download vorp fishing
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_fishing-lua
+    src: https://github.com/VORP-1800/vorp_fishing-lua
     ref: main
     dest: ./temp/[VORP]/vorp_fishing
 
 # Download vorp outlaws
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_outlaws
+    src: https://github.com/VORP-1800/vorp_outlaws
     ref: main
     dest: ./temp/[VORP]/vorp_outlaws
 
 # Download vorp crawfish
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_crawfish
+    src: https://github.com/VORP-1800/vorp_crawfish
     ref: main
     dest: ./temp/[VORP]/vorp_crawfish
 
 # Download vorp animations
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_animations
+    src: https://github.com/VORP-1800/vorp_animations
     ref: main
     dest: ./temp/[VORP]/vorp_animations
 
 # Download vorp mailbox
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_mailbox
+    src: https://github.com/VORP-1800/vorp_mailbox
     ref: main
     dest: ./temp/[VORP]/vorp_mailbox
 
 # Download vorp postman
   - action: download_github
-    src: https://github.com/VORPCORE/VORP-PostMan
+    src: https://github.com/VORP-1800/VORP-PostMan
     dest: ./tmp/vorp_postman
 
 # Move the postman to the correct location
@@ -240,37 +240,37 @@ tasks:
 
 # Download vorp barbershop
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_barbershop_lua
+    src: https://github.com/VORP-1800/vorp_barbershop_lua
     ref: main
     dest: ./temp/[VORP]/vorp_barbershop
 
 # Download vorp metabolism
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_metabolism-lua
+    src: https://github.com/VORP-1800/vorp_metabolism-lua
     ref: main
     dest: ./temp/[VORP]/vorp_metabolism
 
 # Download vorp utils
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_utils
+    src: https://github.com/VORP-1800/vorp_utils
     ref: main
     dest: ./temp/[VORP]/vorp_utils
 
 # Download vorp menu
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_menu
+    src: https://github.com/VORP-1800/vorp_menu
     ref: main
     dest: ./temp/[VORP]/vorp_menu
 
 # Download vorp walkanim
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_walkanim
+    src: https://github.com/VORP-1800/vorp_walkanim
     ref: main
     dest: ./temp/[VORP]/vorp_walkanim
 
 # Download vorp imap view tool
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_imapviewtool
+    src: https://github.com/VORP-1800/vorp_imapviewtool
     ref: main
     dest: ./temp/[VORP]/vorp_imapviewtool
 
