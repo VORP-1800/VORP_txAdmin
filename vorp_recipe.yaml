@@ -327,7 +327,7 @@ tasks:
 # Download lockpick
   - action: download_github
     src: https://github.com/VORP-1800/loadingscreen
-    ref: develop
+    ref: main
     dest: ./resources/[standalone]/loadingscreen
 
 # Remove Old Chat
