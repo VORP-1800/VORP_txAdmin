@@ -32,7 +32,7 @@ tasks:
 
 # Download default CFX resources
   - action: download_github
-    src: https://github.com/outsider31000/cfx-server-data
+    src: https://github.com/VORP-1800/cfx-server-data
     ref: master
     subpath: resources
     dest: ./resources/
@@ -41,7 +41,7 @@ tasks:
 
 # Download female body fix
   - action: download_github
-    src: https://github.com/outsider31000/female_body_fix
+    src: https://github.com/VORP-1800/female_body_fix
     ref: develop
     dest: ./resources/[standalone]/female_body_fix
 
@@ -284,49 +284,49 @@ tasks:
 
 # Download pma-voice
   - action: download_github
-    src: https://github.com/AvarianKnight/pma-voice
+    src: https://github.com/VORP-1800/pma-voice
     ref: develop
     dest: ./resources/[standalone]/pma-voice
     
 # Download weathersync
   - action: download_github
-    src: https://github.com/kibook/weathersync
+    src: https://github.com/VORP-1800/weathersync
     ref: master
     dest: ./resources/[standalone]/weathersync
 
 # Download redm ipls
   - action: download_github
-    src: https://github.com/outsider31000/redm-ipls
+    src: https://github.com/VORP-1800/redm-ipls
     ref: develop
     dest: ./resources/[standalone]/redm-ipls
 
 # Download syn minigame
   - action: download_github
-    src: https://github.com/outsider31000/syn_minigame
+    src: https://github.com/VORP-1800/syn_minigame
     ref: develop
     dest: ./resources/[standalone]/syn_minigame
 
 # Download moonshine interiors
   - action: download_github
-    src: https://github.com/outsider31000/moonshine_interiors
+    src: https://github.com/VORP-1800/moonshine_interiors
     ref: develop
     dest: ./resources/[standalone]/moonshine_interiors
 
 # Download Polyzone
   - action: download_github
-    src: https://github.com/outsider31000/PolyZone
+    src: https://github.com/VORP-1800/PolyZone
     ref: develop
     dest: ./resources/[standalone]/PolyZone
 
 # Download lockpick
   - action: download_github
-    src: https://github.com/outsider31000/lockpick
+    src: https://github.com/VORP-1800/lockpick
     ref: develop
     dest: ./resources/[standalone]/lockpick
 
 # Download lockpick
   - action: download_github
-    src: https://github.com/outsider31000/loadingscreen
+    src: https://github.com/VORP-1800/loadingscreen
     ref: develop
     dest: ./resources/[standalone]/loadingscreen
 
